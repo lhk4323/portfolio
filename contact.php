@@ -15,7 +15,7 @@
             <link rel="stylesheet" type="text/css" href="css/lklbc.css">
       <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>Lenny Kwan Portfolio</title>
+    <title>Portfolio</title>
   </head>
   <body>
 <div id="page">
@@ -54,23 +54,11 @@
 
 <?php
 $headerMsg = 'Sender name: ' . $sendername . " \r\n" . 'Sender email: ' . $senderem;
-          mail("lenny@lklbc.com","Incoming email lklbc.com",$msg,$headerMsg);
+          mail("lhk4323@domain.com","Incoming email from site",$msg,$headerMsg);
 ?>
 
-
-
-
-
           </main>
-          
-          
-
-
       </div>    
-    
-  
-
-
 </body>
     <script>
     
