@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141051359-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141051359-1');
+</script>
+
+      <link rel="stylesheet" type="text/css" href="css/lklbc.css">
+      <link rel="stylesheet" type="text/css" href="css/typewriter.css">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <title>Lenny Kwan Portfolio</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <style>
+     
+            .thumbnails {
+                
+  transition: opacity 0.5s ease-out;
+              height: 100px;
+                width: 100px;
+}
+ 
+      </style>
+  </head>
+  <body>
+
+      <div id="navbar"></div>
+     <div id="headbar"></div>
+      <main class="container">
+<div class="typewriter"><h1 id="aboutme">Lenny Kwan</h1>
+    <br>
+    <h1 id="aboutme">Web Developer</h1>
+    
+    <br>
+    <h1 id="aboutme">Digital</h1>
+          <h1 id="aboutme">Marketing</h1>
+      <h1 id="aboutme">Strategist</h1></div>
+          <br>
+          <hr>
+          <br>
+<a href="about.html"><img class="rail" style="opacity: .5" height="100rem" src="img/professional.jpg"></a>
+<a href="cv.html"><img class="rail" style="opacity: .5" height="100rem" src="img/climbing.jpg"></a>
+<a href="design.html"><img class="rail" style="opacity: .5" height="100rem" src="img/grandcanyon.jpg"></a>
+<a href="marketing.html"><img class="rail" style="opacity: .5" height="100rem" src="img/overview.jpg"></a>
+      </main>
+      
+</body>
+    
+<script>
+    
+$(document).ready(function() {
+     $("#navbar").load("nav.html");
+    
+    $('img.rail').hover(
+    function()
+        {
+      $(this).css({
+          'opacity': '1',
+          'transition-duration': '1s',
+         });
+          },
+    function()
+        {
+      $(this).css({
+        'opacity': '.5'});
+        }
+    );
+});    
+    
+</script>
+</html>
