@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141051359-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141051359-1');
+</script>
+
+      <link rel="stylesheet" type="text/css" href="css/lklbc.css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <title>Lenny Kwan Portfolio</title>
+  </head>
+  <body>
+
+      
+      
+<div id="navbar"></div>
+      <div id="headbar"></div>
+      <main class="container">
+
+          <h1>My Beliefs on the Process of Site Design</h1>
+          <p>I treat web design like building a car. First you determine what you want to build, such as a car, truck, SUV, etc (deciding on what content to have). Then you build the mechanics of the car (engine, motors, etc) to make sure it functions (build out the JavaScript functions to have the page interact how you want it to interact). Finally, add the design on the car, such as dashboard, wheel, car seats, exterior, etc (the design, aka the CSS)</p>
+          
+          <p>To be a little bit more specific without an analogy, I always sketch out a wireframe on a simple sketch pad and conceptualize what I want to design on paper. I layout the site, where the title/logo goes, the navigation, any social media links, and where the content goes. I even chart out where grid lines go if the project can substantially benefit from a grid design.</p>
+          <p>I also consider the client's needs. How often will they need it updated?  What is their technical skill level? Many times, a CMS such as Wordpress or Squarespace  is going to be the best solution, but sometimes a CMS isn't necessary. It ultimately depends on your client's goals and that's what you need to discuss with them.</p>
+          <p>One example I can think of is a locally owned restaurant. How often will they actually need to update their site?  Maybe the homepage itself if they're offering a special, but otherwise, the menu, the location, and the contact info is going to be all the same and will probably never change.
+          <p>Another example is a personal page, such as this one. I most likely won't need to make many updates and I like having my own design to stand out. Sure, it's not the fanciest out there, but I can confidentally say this site was completely coded from a code editor, not a CMS.</p>
+          <h2>Content</h2>
+          <p>The first step is determining the content. What is going on the site? Am I putting up some food recipes? Some of my favorite hobbies? How much info do I want to put up? Will there be a section that's continually updated? Should I have a blog section to cut down on coding time and focusing more on content?</p>
+          <p>After determining what content, I think of any potential technical parts that may require the use of JavaScript. Most personal content generally doesn't require it, except for saving on steps. For example, the header is actually a separate file that's loaded via jQuery, which triggers on page load. I could've just repeated the content across the pages, but it's far easier to do it this way. Plus, if I need to update the navigation bar, I only have to update one file.</p><a href="#navbar" id="upcv">&uarr;</a>
+          <h2>Design</h2>
+          <p>The CSS is last. I sketch out how I ideally would like the site to look. What kind of color scheme do I want? For this site, I settled with something soft (a beige/grey gradient). I tried multiple different colors, but felt comfortable with this sceheme. Font I actually decide last. With so many options to choose from, I felt like it could change depending on the content. I personally like the sans-serif family for fonts, so I usually stick with something around there, but I'll change it depending on how I feel the design turns out to be.</p>
+          <p>I also consider how I want the content to be presented. It's typical to "layer" the content on top of the background so the reader isn't overwhelmed with so much content. It was fine back when 13" monitors were common, but nowadays with 24" monitors or higher being the norm, the content presentation needs to be considerate of higher resolution.</p>
+          <p>In my experience, the CSS is where I end up doing a LOT of tweaking after the JS just to make sure it looks and feels right. No one ever really notices the functions of the site, but they notice the design right away. If you don't believe me, check out these<a href="https://www.pinterest.com/demetresnicola/oldschool-web/" target="_blank" style="color: blue"> old school designs archived on Pinterest</a> </p><a href="#navbar" id="upcv">&uarr;</a>
+          
+              
+              
+              
+      
+    
+      </main>
+
+</body>
+    
+<script>
+
+$(document).ready(function() {
+        $("#navbar").load("nav.html");
+
+    
+});
+    
+</script>
+
+
+
+    
+</html>
